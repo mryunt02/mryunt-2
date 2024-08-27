@@ -1,4 +1,6 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
+import { Card } from './ui/card';
+import AboutMe from './about-me';
 
 export function TabsDemo() {
   return (
@@ -8,9 +10,15 @@ export function TabsDemo() {
         <TabsTrigger value='projects'>Projects</TabsTrigger>
         <TabsTrigger value='experience'>Experience</TabsTrigger>
       </TabsList>
-      <TabsContent value='account'>qwxewqe</TabsContent>
-      <TabsContent value='projects'>qwxewqxe</TabsContent>
-      <TabsContent value='experince'>qwxewqxe</TabsContent>
+      <TabsContent value='account' className='w-[1200px] -ml-[367px]'>
+        <AboutMe />
+      </TabsContent>
+      <TabsContent value='projects' className='w-[1200px] -ml-[367px]'>
+        qwxewqxe
+      </TabsContent>
+      <TabsContent value='experince' className='w-[1200px] -ml-[367px]'>
+        qwxewqxe
+      </TabsContent>
     </Tabs>
   );
 }
