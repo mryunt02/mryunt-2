@@ -5,7 +5,7 @@ import { ModeToggle } from './mode-toggle';
 import avatar from '../icons/Untitled.png';
 import Link from 'next/link';
 import { Github, Linkedin } from 'lucide-react';
-import { ButtonLink, TabsDemo } from './button-link';
+import { TabsDemo } from './button-link';
 const icons = [
   { src: <Github />, link: 'https://github.com/mryunt02' },
   {
