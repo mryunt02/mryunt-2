@@ -5,7 +5,7 @@ import { ModeToggle } from './mode-toggle';
 import avatar from '../icons/Untitled.png';
 import Link from 'next/link';
 import { Github, Linkedin } from 'lucide-react';
-import { ButtonLink } from './button-link';
+import { ButtonLink, TabsDemo } from './button-link';
 const icons = [
   { src: <Github />, link: 'https://github.com/mryunt02' },
   {
@@ -24,7 +24,7 @@ const Header = () => {
           </Avatar>
         </div>
         <div>
-          <ButtonLink />
+          <TabsDemo />
         </div>
         <div className='flex items-center gap-2'>
           {icons.map((icon) => {

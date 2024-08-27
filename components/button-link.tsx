@@ -1,11 +1,16 @@
-import { Button } from '@/components/ui/button';
+import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 
-export function ButtonLink() {
+export function TabsDemo() {
   return (
-    <>
-      <Button>About Me</Button>
-      <Button variant='link'>Projects</Button>
-      <Button variant='link'>Experience</Button>
-    </>
+    <Tabs defaultValue='account' className='w-[400px]'>
+      <TabsList className='grid w-full grid-cols-3'>
+        <TabsTrigger value='account'>About Me</TabsTrigger>
+        <TabsTrigger value='projects'>Projects</TabsTrigger>
+        <TabsTrigger value='experience'>Experience</TabsTrigger>
+      </TabsList>
+      <TabsContent value='account'>qwxewqe</TabsContent>
+      <TabsContent value='projects'>qwxewqxe</TabsContent>
+      <TabsContent value='experince'>qwxewqxe</TabsContent>
+    </Tabs>
   );
 }
