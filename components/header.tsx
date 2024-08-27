@@ -2,11 +2,9 @@ import React from 'react';
 import { Avatar } from './ui/avatar';
 import { AvatarFallback, AvatarImage } from '@radix-ui/react-avatar';
 import { ModeToggle } from './mode-toggle';
-import github from '../icons/github-2.svg';
-import Image from 'next/image';
+import avatar from '../icons/Untitled.png';
 import Link from 'next/link';
 import { Github, Linkedin } from 'lucide-react';
-import { link } from 'fs';
 import { ButtonLink } from './button-link';
 const icons = [
   { src: <Github />, link: 'https://github.com/mryunt02' },
