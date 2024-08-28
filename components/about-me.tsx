@@ -12,25 +12,24 @@ import mryunt from '../icons/mryunt.png';
 
 const AboutMe = () => {
   return (
-    <div>
-      <Card>
-        <div>
-          <CardHeader>
-            <CardTitle>Buğrahan Yünt</CardTitle>
-            <CardDescription>Card Description</CardDescription>
-          </CardHeader>
-          <CardContent>
-            <p>Card Content</p>
-          </CardContent>
-          <CardFooter>
-            <p>Card Footer</p>
-          </CardFooter>
-        </div>
-        <div>
-          <Image src={mryunt} alt='mryunt-photo' />
-        </div>
-      </Card>
-    </div>
+    <Card className='flex'>
+      <div>
+        <CardHeader>
+          <CardTitle>
+            Hi, 👋 I'm <span className='text-[#D7721D]'>Buğrahan</span>
+          </CardTitle>
+        </CardHeader>
+        <CardContent>
+          <p>Card Content</p>
+        </CardContent>
+        <CardFooter>
+          <p>Card Footer</p>
+        </CardFooter>
+      </div>
+      <div>
+        <Image src={mryunt} alt='mryunt-photo' />
+      </div>
+    </Card>
   );
 };
 
