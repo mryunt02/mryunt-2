@@ -10,15 +10,11 @@ export function TabsDemo() {
         <TabsTrigger value='projects'>Projects</TabsTrigger>
         <TabsTrigger value='experience'>Experience</TabsTrigger>
       </TabsList>
-      <TabsContent value='account' className='w-[1200px] -ml-[367px]'>
+      <TabsContent value='account'>
         <AboutMe />
       </TabsContent>
-      <TabsContent value='projects' className='w-[1200px] -ml-[367px]'>
-        qwxewqxe
-      </TabsContent>
-      <TabsContent value='experince' className='w-[1200px] -ml-[367px]'>
-        qwxewqxe
-      </TabsContent>
+      <TabsContent value='projects'>qwxewqxe</TabsContent>
+      <TabsContent value='experince'>qwxewqxe</TabsContent>
     </Tabs>
   );
 }
