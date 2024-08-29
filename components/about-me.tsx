@@ -15,9 +15,9 @@ const AboutMe = () => {
     <Card className='flex'>
       <div>
         <CardHeader>
-          <CardTitle>
+          <h1 className=' text-lg sm:text-4xl'>
             Hi, 👋 I'm <span className='text-[#D7721D]'>Buğrahan</span>
-          </CardTitle>
+          </h1>
         </CardHeader>
         <CardContent>
           <p>Card Content</p>
@@ -26,7 +26,7 @@ const AboutMe = () => {
           <p>Card Footer</p>
         </CardFooter>
       </div>
-      <div>
+      <div className='p-5'>
         <Image src={mryunt} alt='mryunt-photo' />
       </div>
     </Card>

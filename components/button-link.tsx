@@ -4,8 +4,8 @@ import AboutMe from './about-me';
 
 export function TabsDemo() {
   return (
-    <Tabs defaultValue='account' className='w-[400px]'>
-      <TabsList className='grid w-full grid-cols-3'>
+    <Tabs defaultValue='account'>
+      <TabsList className='grid  sm:w-[400px] grid-cols-3 '>
         <TabsTrigger value='account'>About Me</TabsTrigger>
         <TabsTrigger value='projects'>Projects</TabsTrigger>
         <TabsTrigger value='experience'>Experience</TabsTrigger>
