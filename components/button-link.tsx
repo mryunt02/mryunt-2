@@ -10,10 +10,13 @@ export function TabsDemo() {
         <TabsTrigger value='projects'>Projects</TabsTrigger>
         <TabsTrigger value='experience'>Experience</TabsTrigger>
       </TabsList>
-      <TabsContent value='account'>
+      <TabsContent
+        value='account'
+        className='absolute left-0 right-0 pl-5 pr-5'
+      >
         <AboutMe />
       </TabsContent>
-      <TabsContent value='projects'>qwxewqxe</TabsContent>
+      <TabsContent value='projecte'>qwxewqxe</TabsContent>
       <TabsContent value='experince'>qwxewqxe</TabsContent>
     </Tabs>
   );
