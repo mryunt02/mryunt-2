@@ -16,7 +16,7 @@ const icons = [
 const Header = () => {
   return (
     <header className='max-w-[1200px] m-auto sticky '>
-      <div className='p-5 flex justify-between '>
+      <div className='px-2 pt-3 sm:p-5 flex justify-between gap-2 '>
         <div className='h-fit'>
           <Avatar>
             <AvatarImage src='https://avatars.githubusercontent.com/u/90159617?s=400&u=7a4fbc54e4e78df0b7998762608a444936992c1a&v=4' />

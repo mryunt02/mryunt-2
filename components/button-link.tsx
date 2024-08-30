@@ -12,7 +12,7 @@ export function TabsDemo() {
       </TabsList>
       <TabsContent
         value='account'
-        className='absolute left-0 right-0 pl-5 pr-5'
+        className='absolute left-0 right-0 px-2 sm:px-5'
       >
         <AboutMe />
       </TabsContent>
