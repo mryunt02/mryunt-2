@@ -13,10 +13,10 @@ import { Book, LocateIcon, MapPin } from 'lucide-react';
 
 const AboutMe = () => {
   return (
-    <Card className='flex justify-between'>
+    <Card className='flex justify-between flex-col-reverse sm:flex-row'>
       <div>
         <CardHeader className=' pl-4 pt-4  sm:pl-8 sm:pt-8'>
-          <h1 className=' text-lg sm:text-4xl'>
+          <h1 className=' text-lg sm:text-4xl absolute top-0 pt-3 sm:static sm:pt-0'>
             Hi, 👋 I'm <span className='text-[#D7721D]'>Buğrahan</span>
             <i className=' text-xs sm:text-sm block text-[#a9a9a9]'>
               {' '}
@@ -41,7 +41,7 @@ const AboutMe = () => {
           </div>
         </CardFooter>
       </div>
-      <div className='py-8 pr-8 absolute max-w-[200px] right-0 top-[-23px] sm:static sm:max-w-[1000px]'>
+      <div className='py-8 '>
         <Image src={mryunt} alt='mryunt-photo' />
       </div>
     </Card>
