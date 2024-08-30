@@ -29,7 +29,7 @@ const Header = () => {
         <div className='flex items-center gap-2 h-fit'>
           {icons.map((icon) => {
             return (
-              <li key={icon.link} className='list-none'>
+              <li key={icon.link} className='list-none hidden sm:block'>
                 <Link href={icon.link} target='_blank'>
                   {icon.src}
                 </Link>
