@@ -15,7 +15,7 @@ const Skills = () => {
           <div className='h-[100px] flex'>
             <Image src={icon.src} alt={icon.alt} width={100} height={100} />
           </div>
-          <h3>React</h3>
+          <h3>{icon.name}</h3>
         </Card>
       ))}
     </>

@@ -57,7 +57,11 @@ const AboutMe = () => {
         </CardFooter>
       </div>
       <div className='py-8 p-8 pb-0 sm:pb-8 m-auto  sm:w-auto'>
-        <Image src={mryunt} alt='mryunt-photo' />
+        <Image
+          src={mryunt}
+          alt='mryunt-photo'
+          className='pointer-events-none'
+        />
       </div>
     </Card>
   );
