@@ -11,7 +11,7 @@ const MySkills = () => {
           Skills
         </h1>
       </CardHeader>
-      <CardContent className=' pl-4 sm:px-8 pb-8 flex flex-col gap-2'>
+      <CardContent className='grid grid-cols-5 gap-5'>
         <Skills />
       </CardContent>
     </Card>
