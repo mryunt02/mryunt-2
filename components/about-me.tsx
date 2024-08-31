@@ -1,3 +1,4 @@
+/* eslint-disable react/no-unescaped-entities */
 import React from 'react';
 import {
   Card,
@@ -55,7 +56,7 @@ const AboutMe = () => {
           </div>
         </CardFooter>
       </div>
-      <div className='py-8 p-8 pb-0 sm:pb-8 m-auto w-[350px] sm:w-auto'>
+      <div className='py-8 p-8 pb-0 sm:pb-8 m-auto  sm:w-auto'>
         <Image src={mryunt} alt='mryunt-photo' />
       </div>
     </Card>

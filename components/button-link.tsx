@@ -1,6 +1,7 @@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card } from './ui/card';
 import AboutMe from './about-me';
+import MySkills from './my-skills';
 
 export function TabsDemo() {
   return (
@@ -15,6 +16,7 @@ export function TabsDemo() {
         className='absolute left-0 right-0 px-2 sm:px-5'
       >
         <AboutMe />
+        <MySkills />
       </TabsContent>
       <TabsContent value='projecte'>qwxewqxe</TabsContent>
       <TabsContent value='experince'>qwxewqxe</TabsContent>
