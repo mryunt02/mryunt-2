@@ -18,7 +18,7 @@ const Header = () => {
       <div className='px-2 pt-3 sm:p-5 flex justify-between gap-2 '>
         <div className='h-fit'>
           <Avatar>
-            <AvatarImage src='https://avatars.githubusercontent.com/u/90159617?s=400&u=7a4fbc54e4e78df0b7998762608a444936992c1a&v=4' />
+            <AvatarImage src='https://avatars.githubusercontent.com/u/90159617?s=400&u=9c1578f9d8a06447aa302e41a43e21ff78a2b53e&v=4' />
             <AvatarFallback>BY</AvatarFallback>
           </Avatar>
         </div>
