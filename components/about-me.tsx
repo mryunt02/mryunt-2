@@ -41,7 +41,7 @@ const AboutMe = () => {
             <p>Sivas Cumhuriyet Üniversitesi, Computer Engineering</p>
           </div>
         </CardContent>
-        <CardFooter className='sm:pl-8 px-8 flex flex-col items-start gap-2 pl-3 text-sm sm:text-base'>
+        <CardFooter className='sm:pl-8 px-8 flex flex-col items-start gap-2 pl-3 text-sm sm:text-base sm:mt-4'>
           <div>
             <Button asChild className='bg-[#D7721D] hover:bg-[#dc8944]'>
               <Link href='mailto:yuntbugrahan@gmail.com '>

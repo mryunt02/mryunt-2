@@ -14,7 +14,7 @@ const icons = [
 ];
 const Header = () => {
   return (
-    <header className='max-w-[1200px] m-auto sticky '>
+    <header className='max-w-[1200px] m-auto sm:sticky sm:top-0 bg-background'>
       <div className='px-2 pt-3 sm:p-5 flex justify-between gap-2 '>
         <div className='h-fit'>
           <Avatar>
