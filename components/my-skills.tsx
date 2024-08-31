@@ -1,3 +1,4 @@
+/* eslint-disable react/jsx-no-undef */
 import React from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
 
@@ -10,7 +11,9 @@ const MySkills = () => {
         </h1>
       </CardHeader>
       <CardContent className=' pl-4 sm:px-8 pb-8 flex flex-col gap-2'>
-        ewqeqwe
+        <Card>
+          <CardHeader>Hello</CardHeader>
+        </Card>
       </CardContent>
     </Card>
   );
