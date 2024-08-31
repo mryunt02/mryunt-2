@@ -2,7 +2,6 @@ import React from 'react';
 import { Avatar } from './ui/avatar';
 import { AvatarFallback, AvatarImage } from '@radix-ui/react-avatar';
 import { ModeToggle } from './mode-toggle';
-import avatar from '../icons/Untitled.png';
 import Link from 'next/link';
 import { Github, Linkedin } from 'lucide-react';
 import { TabsDemo } from './button-link';
