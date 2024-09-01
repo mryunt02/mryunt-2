@@ -12,7 +12,7 @@ const MyProjects = () => {
           Projects
         </h1>
       </CardHeader>
-      <CardContent className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 px-4 sm:px-8'>
+      <CardContent className='grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-5 px-4 sm:px-8'>
         <Project />
       </CardContent>
     </Card>

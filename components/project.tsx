@@ -7,26 +7,25 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from '@/components/ui/carousel';
+import Image from 'next/image';
+import mryunt from '../icons/mryunt.png';
+import weatherappimg from '../icons/weatherapp.png';
 
 export function Project() {
   return (
-    <Carousel className='w-full max-w-xs'>
-      <CarouselContent>
-        {Array.from({ length: 5 }).map((_, index) => (
-          <CarouselItem key={index}>
-            <div className='p-1'>
-              <Card>
-                <CardContent className='flex aspect-square items-center justify-center p-6'>
-                  <span className='text-4xl font-semibold'>{index + 1}</span>
-                </CardContent>
-              </Card>
-            </div>
-          </CarouselItem>
-        ))}
-      </CarouselContent>
-      <CarouselPrevious />
-      <CarouselNext />
-    </Carousel>
+    <>
+      <Card className='p-5 flex flex-col gap-3'>
+        <Image src={weatherappimg} alt='weather-app' />
+        <h2 className='text-xl'>Weather App</h2>
+        <p>
+          I built a React-based Weather App that delivers real-time weather
+          updates for cities across Turkey. The app features a simple,
+          user-friendly interface and integrates with APIs to provide accurate
+          forecasts.
+        </p>
+        <p>Used Tools: </p>
+      </Card>
+    </>
   );
 }
 export default Project;
