@@ -61,12 +61,6 @@ const AboutMe = () => {
             <p className='flex items-center gap-1'>
               You can find me in{' '}
               <Button asChild variant='link'>
-                <Link href='https://github.com/mryunt02' target='blank'>
-                  Github
-                </Link>
-              </Button>{' '}
-              and
-              <Button asChild variant='link'>
                 <Link href='https://www.linkedin.com/in/byunt' target='blank'>
                   Linkedin
                 </Link>
