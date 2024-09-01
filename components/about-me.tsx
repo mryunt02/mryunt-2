@@ -49,9 +49,9 @@ const AboutMe = () => {
               </Link>
             </Button>
             <Button asChild variant='ghost'>
-              <Link href={'mailto: yuntbugrahan@gmail.com'}>
+              <a href='cv.pdf' download='cv'>
                 <Download className='mr-2 h-4 w-4' /> Download CV
-              </Link>
+              </a>
             </Button>
           </div>
         </CardFooter>
