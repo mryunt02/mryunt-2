@@ -2,6 +2,7 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Card } from './ui/card';
 import AboutMe from './about-me';
 import MySkills from './my-skills';
+import MyProjects from './my-projects';
 
 export function TabsDemo() {
   return (
@@ -15,6 +16,7 @@ export function TabsDemo() {
       >
         <AboutMe />
         <MySkills />
+        <MyProjects />
       </TabsContent>
     </Tabs>
   );
