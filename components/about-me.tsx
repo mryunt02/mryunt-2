@@ -10,9 +10,21 @@ import {
 } from '@/components/ui/card';
 import Image from 'next/image';
 import mryunt from '../icons/mryunt.png';
-import { Book, Download, Ghost, LocateIcon, Mail, MapPin } from 'lucide-react';
+import {
+  Book,
+  Download,
+  Ghost,
+  Github,
+  Globe,
+  Linkedin,
+  LocateIcon,
+  Mail,
+  MapPin,
+  Sprout,
+} from 'lucide-react';
 import { Button } from './ui/button';
 import Link from 'next/link';
+import darthVader from '../icons/darth-vader.png';
 
 const AboutMe = () => {
   return (
@@ -39,6 +51,36 @@ const AboutMe = () => {
           <div className='flex gap-1 items-center text-sm sm:text-base'>
             <Book width={20} />
             <p>Sivas Cumhuriyet Üniversitesi, Computer Engineering</p>
+          </div>
+          <div className='flex gap-1 items-center text-sm sm:text-base'>
+            <Sprout width={20} />
+            <p>These days I'm learning react query.</p>
+          </div>
+          <div className='flex gap-1 items-center text-sm sm:text-base h-6'>
+            <Globe width={20} />
+            <p className='flex items-center gap-1'>
+              You can find me in{' '}
+              <Button asChild variant='link'>
+                <Link href='https://github.com/mryunt02' target='blank'>
+                  Github
+                </Link>
+              </Button>{' '}
+              and
+              <Button asChild variant='link'>
+                <Link href='https://www.linkedin.com/in/byunt' target='blank'>
+                  Linkedin
+                </Link>
+              </Button>
+            </p>
+          </div>
+          <div className='flex gap-1 items-center text-sm sm:text-base'>
+            <Image
+              src={darthVader}
+              alt='darth-vader'
+              width={24}
+              className='dark:invert'
+            />
+            <i>"May the force be with you."</i>
           </div>
         </CardContent>
         <CardFooter className='sm:pl-8 px-8 flex flex-col items-start gap-2 pl-3 text-sm sm:text-base sm:mt-4'>

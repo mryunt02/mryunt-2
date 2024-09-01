@@ -6,10 +6,8 @@ import MySkills from './my-skills';
 export function TabsDemo() {
   return (
     <Tabs defaultValue='account'>
-      <TabsList className='grid  sm:w-[400px] grid-cols-3 '>
+      <TabsList className='grid  sm:w-[400px] grid-cols-1 '>
         <TabsTrigger value='account'>About Me</TabsTrigger>
-        <TabsTrigger value='projects'>Projects</TabsTrigger>
-        <TabsTrigger value='experience'>Experience</TabsTrigger>
       </TabsList>
       <TabsContent
         value='account'
@@ -18,8 +16,6 @@ export function TabsDemo() {
         <AboutMe />
         <MySkills />
       </TabsContent>
-      <TabsContent value='projecte'>qwxewqxe</TabsContent>
-      <TabsContent value='experince'>qwxewqxe</TabsContent>
     </Tabs>
   );
 }
