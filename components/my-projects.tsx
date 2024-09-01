@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
 import mryunt from '../icons/mryunt.png';
 import Image from 'next/image';
+import Project from './project';
 
 const MyProjects = () => {
   return (
@@ -11,7 +12,9 @@ const MyProjects = () => {
           Projects
         </h1>
       </CardHeader>
-      <CardContent className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 px-4 sm:px-8'></CardContent>
+      <CardContent className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 px-4 sm:px-8'>
+        <Project />
+      </CardContent>
     </Card>
   );
 };
