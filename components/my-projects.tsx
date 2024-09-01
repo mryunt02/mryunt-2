@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
+import mryunt from '../icons/mryunt.png';
+import Image from 'next/image';
 
 const MyProjects = () => {
   return (
