@@ -16,7 +16,7 @@ export const projects = [
     name: 'Rick and Morty',
     description:
       'I developed a user-friendly app using the Rick and Morty API, allowing fans to explore detailed information about their favorite characters. The app features an intuitive design, ensuring a seamless and engaging user experience.',
-    tools: ['Next.js', 'JavasSript', 'CSS', 'HTML'],
+    tools: ['Next.js', 'JavaSript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/rickandmorty/',
     img: rick,
   },
