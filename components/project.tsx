@@ -31,8 +31,8 @@ export function Project() {
               <ExternalLink />
             </Link>
           </h2>
-          <p className='min-h-[96px]'>{project.description}</p>
-          <div className='flex flex-col sm:flex-row gap-2'>
+          <p className='min-h-[96px] sm:min-h-[144px]'>{project.description}</p>
+          <div className='flex flex-col lg:flex-row gap-2'>
             <p>Used Tools: </p>
             <div className='flex gap-1'>
               {project.tools.map((tool) => (
