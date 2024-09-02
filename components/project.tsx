@@ -19,12 +19,14 @@ export function Project() {
     <>
       {projects.map((project) => (
         <Card className='p-5 flex flex-col gap-3' key={project.name}>
-          <Image
-            src={project.img}
-            alt='weather-app'
-            height={250}
-            className='w-full h-[250px] rounded'
-          />
+          <div className='overflow-hidden'>
+            <Image
+              src={project.img}
+              alt='weather-app'
+              height={250}
+              className='w-full h-[250px] rounded hover:scale-110 duration-500 transition-transform'
+            />
+          </div>
           <h2 className='text-xl flex items-center justify-between'>
             {project.name}{' '}
             <Link href={project.url} target='blank'>

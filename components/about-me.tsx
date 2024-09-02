@@ -10,6 +10,7 @@ import {
 } from '@/components/ui/card';
 import Image from 'next/image';
 import mryunt from '../icons/mryunt.png';
+import jotformicon from '../icons/jotform-icon.png';
 import {
   Book,
   Download,
