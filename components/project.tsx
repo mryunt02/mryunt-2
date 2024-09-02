@@ -21,10 +21,14 @@ export function Project() {
           <Image src={weatherappimg} alt='weather-app' />
           <h2 className='text-xl'>{project.name}</h2>
           <p>{project.description}</p>
-          <p>Used Tools: </p>
-          {project.tools.map((tool) => (
-            <Badge key={tool}>{tool}</Badge>
-          ))}
+          <div className='flex gap-2'>
+            <p>Used Tools: </p>
+            <div className='flex gap-1'>
+              {project.tools.map((tool) => (
+                <Badge key={tool}>{tool}</Badge>
+              ))}
+            </div>
+          </div>
         </Card>
       ))}
     </>
