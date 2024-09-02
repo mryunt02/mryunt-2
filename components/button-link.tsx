@@ -3,6 +3,7 @@ import { Card } from './ui/card';
 import AboutMe from './about-me';
 import MySkills from './my-skills';
 import MyProjects from './my-projects';
+import MyExperience from './my-experience';
 
 export function TabsDemo() {
   return (
@@ -17,6 +18,7 @@ export function TabsDemo() {
         <AboutMe />
         <MySkills />
         <MyProjects />
+        <MyExperience />
       </TabsContent>
     </Tabs>
   );
