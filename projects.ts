@@ -8,7 +8,7 @@ export const projects = [
     name: 'Portfolio Web Page',
     description:
       'I designed and developed a responsive portfolio website that resembles a MacBook screen. Built with React.js, the site showcases my projects, skills, and experiences with a clean, user-friendly design.',
-    tools: ['React', 'JavasSript', 'CSS', 'HTML'],
+    tools: ['React.js', 'JavasSript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/portfolio-v2/',
     img: portfolio,
   },
@@ -24,7 +24,7 @@ export const projects = [
     name: 'Sample React App',
     description:
       'This is a React.js application focused on my favorite League of Legends character, Aphelios. The app showcases various abilities and lore of Aphelios, with an emphasis on interactive and engaging design.',
-    tools: ['React', 'JavaScript', 'CSS', 'HTML'],
+    tools: ['React.js', 'JavaScript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/sample-react-v2/',
     img: sampleReact,
   },
@@ -32,7 +32,7 @@ export const projects = [
     name: 'Personal Website',
     description:
       'I created a personal website using React.js to showcase information about myself, including my interests, skills, and background. The design is clean and responsive, reflecting my personal style.',
-    tools: ['React', 'JavaScript', 'CSS', 'HTML'],
+    tools: ['React.js', 'JavaScript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/personal/',
     img: personal,
   },
@@ -40,7 +40,7 @@ export const projects = [
     name: 'Weather App',
     description:
       'I built a React-based Weather App that delivers real-time weatherupdates for cities across Turkey. The app features a simple, user-friendly interface and integrates with APIs to provide accurate forecasts.',
-    tools: ['React', 'JavasSript', 'CSS', 'HTML'],
+    tools: ['React.js', 'JavasSript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/weatherapp',
     img: weatherappimage,
   },
