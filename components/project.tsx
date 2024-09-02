@@ -8,6 +8,7 @@ import {
   CarouselPrevious,
 } from '@/components/ui/carousel';
 import Image from 'next/image';
+
 import { Badge } from './ui/badge';
 import { projects } from '@/projects';
 import { ExternalLink } from 'lucide-react';
@@ -18,15 +19,20 @@ export function Project() {
     <>
       {projects.map((project) => (
         <Card className='p-5 flex flex-col gap-3' key={project.name}>
-          <Image src={project.img} alt='weather-app' />
+          <Image
+            src={project.img}
+            alt='weather-app'
+            height={250}
+            className='w-full h-[250px]'
+          />
           <h2 className='text-xl flex items-center justify-between'>
             {project.name}{' '}
             <Link href={project.url} target='blank'>
               <ExternalLink />
             </Link>
           </h2>
-          <p>{project.description}</p>
-          <div className='flex gap-2'>
+          <p className='min-h-[96px]'>{project.description}</p>
+          <div className='flex flex-col sm:flex-row gap-2'>
             <p>Used Tools: </p>
             <div className='flex gap-1'>
               {project.tools.map((tool) => (
