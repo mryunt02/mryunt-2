@@ -1,6 +1,10 @@
 import React from 'react';
 import { Card, CardContent, CardHeader } from './ui/card';
 
+import { experience } from '@/experience';
+import Image from 'next/image';
+import { Badge } from './ui/badge';
+
 const MyExperience = () => {
   return (
     <Card className='my-3'>
@@ -9,8 +13,25 @@ const MyExperience = () => {
           Experience
         </h1>
       </CardHeader>
-      <CardContent className='grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-5 px-4 sm:px-8'>
-        qwxeqwexqwe
+      <CardContent className='gap-5 px-4 sm:px-8'>
+        {experience.map((exp) => (
+          <>
+            <div key={exp.title} className='flex gap-1'>
+              <Image
+                src={exp.logo}
+                alt='company-icon'
+                width={50}
+                height={50}
+                className='h-[50px]'
+              />
+              <div className='flex flex-col min-w-[200px]'>
+                <h2 className='font-semibold mb-1'>{exp.title}</h2>
+                <p className='text-sm'>{exp.company}</p>
+                <p className='text-sm text-[#A9A9A9]'>{exp.date}</p>
+              </div>
+            </div>
+          </>
+        ))}
       </CardContent>
     </Card>
   );
