@@ -23,7 +23,7 @@ export function Project() {
             src={project.img}
             alt='weather-app'
             height={250}
-            className='w-full h-[250px]'
+            className='w-full h-[250px] rounded'
           />
           <h2 className='text-xl flex items-center justify-between'>
             {project.name}{' '}
