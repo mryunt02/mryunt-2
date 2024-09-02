@@ -10,21 +10,23 @@ import {
 import Image from 'next/image';
 import mryunt from '../icons/mryunt.png';
 import weatherappimg from '../icons/weatherapp.png';
+import { Badge } from './ui/badge';
+import { projects } from '@/projects';
 
 export function Project() {
   return (
     <>
-      <Card className='p-5 flex flex-col gap-3'>
-        <Image src={weatherappimg} alt='weather-app' />
-        <h2 className='text-xl'>Weather App</h2>
-        <p>
-          I built a React-based Weather App that delivers real-time weather
-          updates for cities across Turkey. The app features a simple,
-          user-friendly interface and integrates with APIs to provide accurate
-          forecasts.
-        </p>
-        <p>Used Tools: </p>
-      </Card>
+      {projects.map((project) => (
+        <Card className='p-5 flex flex-col gap-3' key={project.name}>
+          <Image src={weatherappimg} alt='weather-app' />
+          <h2 className='text-xl'>{project.name}</h2>
+          <p>{project.description}</p>
+          <p>Used Tools: </p>
+          {project.tools.map((tool) => (
+            <Badge key={tool}>{tool}</Badge>
+          ))}
+        </Card>
+      ))}
     </>
   );
 }
