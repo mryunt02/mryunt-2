@@ -13,7 +13,13 @@ const Skills = () => {
           className='p-5 flex flex-col items-center justify-center gap-5'
         >
           <div className='h-[100px] flex'>
-            <Image src={icon.src} alt={icon.alt} width={100} height={100} />
+            <Image
+              src={icon.src}
+              alt={icon.alt}
+              width={100}
+              height={100}
+              className='pointer-events-none'
+            />
           </div>
           <h3>{icon.name}</h3>
         </Card>
