@@ -18,7 +18,7 @@ const Skills = () => {
               alt={icon.alt}
               width={100}
               height={100}
-              className='pointer-events-none'
+              className={icon.className}
             />
           </div>
           <h3>{icon.name}</h3>
