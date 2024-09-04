@@ -1,4 +1,10 @@
-export const skillIcons = [
+interface skillIcons {
+  src: string;
+  alt: string;
+  name: string;
+  className: string;
+}
+export const skillIcons: skillIcons[] = [
   {
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original-wordmark.svg',
     alt: 'react-icon',
@@ -75,11 +81,13 @@ export const skillIcons = [
     src: 'https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg',
     alt: 'mongo-db',
     name: 'mongoDB',
+    className: 'pointer-events-none',
   },
   {
     src: 'https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg',
     alt: 'jest-icon',
     name: 'Jest',
+    className: 'pointer-events-none',
   },
   {
     src: 'https://cdn.worldvectorlogo.com/logos/nextjs-2.svg',
