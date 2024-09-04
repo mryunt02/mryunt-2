@@ -1,5 +1,5 @@
+import React from 'react';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { Card } from './ui/card';
 import AboutMe from './about-me';
 import MySkills from './my-skills';
 import MyProjects from './my-projects';
@@ -8,7 +8,7 @@ import MyExperience from './my-experience';
 export function TabsDemo() {
   return (
     <Tabs defaultValue='account'>
-      <TabsList className='grid  sm:w-[400px] grid-cols-1 '>
+      <TabsList className='grid sm:w-[400px] grid-cols-1'>
         <TabsTrigger value='account'>About Me</TabsTrigger>
       </TabsList>
       <TabsContent

@@ -1,5 +1,13 @@
+import { StaticImageData } from 'next/image';
 import jotformicon from './icons/jotform-icon.png';
-export const experience = [
+interface Experience {
+  logo: StaticImageData;
+  title: string;
+  company: string;
+  date: string;
+  skills: string[];
+}
+export const experience: Experience[] = [
   {
     logo: jotformicon,
     title: 'UI Developer Intern',
