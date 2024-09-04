@@ -3,6 +3,7 @@ import portfolio from './icons/portfolio.png';
 import rick from './icons/rick.png';
 import personal from './icons/personal.png';
 import sampleReact from './icons/sampleReact.png';
+import boxSizing from './icons/box-sizing.png';
 export const projects = [
   {
     name: 'Portfolio Web Page',
@@ -43,5 +44,13 @@ export const projects = [
     tools: ['React.js', 'JavasSript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/weatherapp',
     img: weatherappimage,
+  },
+  {
+    name: 'Understand Box Sizing',
+    description:
+      'I built a JavaScript-based interactive tool that demonstrates the effects of box-sizing on layout. The tool allows users to apply padding, margins, and borders to visualize the differences between content-box and border-box in real time.',
+    tools: ['JavaScript', 'CSS', 'HTML'],
+    url: 'https://mryunt02.github.io/box-sizing/',
+    img: boxSizing,
   },
 ];
