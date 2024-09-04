@@ -4,7 +4,15 @@ import rick from './icons/rick.png';
 import personal from './icons/personal.png';
 import sampleReact from './icons/sampleReact.png';
 import boxSizing from './icons/box-sizing.png';
-export const projects = [
+import { StaticImageData } from 'next/image';
+interface Project {
+  name: string;
+  description: string;
+  tools: string[];
+  url: string;
+  img: StaticImageData;
+}
+export const projects: Project[] = [
   {
     name: 'Portfolio Web Page',
     description:
