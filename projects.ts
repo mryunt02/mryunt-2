@@ -30,7 +30,7 @@ export const projects: Project[] = [
     img: rick,
   },
   {
-    name: 'Sample React App',
+    name: 'Aphelios.',
     description:
       'This is a React.js application focused on my favorite League of Legends character, Aphelios. The app showcases various abilities and lore of Aphelios, with an emphasis on interactive and engaging design.',
     tools: ['React.js', 'JavaScript', 'CSS', 'HTML'],
