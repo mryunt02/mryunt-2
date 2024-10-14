@@ -32,7 +32,8 @@ export function Project() {
           <h2 className='text-xl flex items-center justify-between'>
             {project.name}{' '}
             <Link href={project.url} target='blank'>
-              <ExternalLink />
+              <ExternalLink />{' '}
+              <span className='sr-only'>Visit {project.name}</span>
             </Link>
           </h2>
           <p className='min-h-[96px] sm:min-h-[144px]'>{project.description}</p>
