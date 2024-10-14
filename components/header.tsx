@@ -42,7 +42,7 @@ const Header: React.FC = () => {
           <TabsDemo />
         </div>
         <div className='flex items-center gap-2 h-fit'>
-          <ul>
+          <ul className='flex'>
             {icons.map((icon) => (
               <li key={icon.link} className='list-none hidden sm:block'>
                 <Link href={icon.link} target='_blank'>
