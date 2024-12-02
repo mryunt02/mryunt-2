@@ -19,8 +19,8 @@ export function TabsDemo() {
         <AboutMe />
         <MySkills />
         <MyProjects />
-        <MyExperience />
         <MyCertifications />
+        <MyExperience />
       </TabsContent>
     </Tabs>
   );
