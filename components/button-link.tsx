@@ -4,6 +4,7 @@ import AboutMe from './about-me';
 import MySkills from './my-skills';
 import MyProjects from './my-projects';
 import MyExperience from './my-experience';
+import MyCertifications from './my-certifications';
 
 export function TabsDemo() {
   return (
@@ -19,6 +20,7 @@ export function TabsDemo() {
         <MySkills />
         <MyProjects />
         <MyExperience />
+        <MyCertifications />
       </TabsContent>
     </Tabs>
   );
