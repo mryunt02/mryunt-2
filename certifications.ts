@@ -14,7 +14,7 @@ export const certificates: certificates[] = [
   {
     logo: recodedIcon,
     title: 'AI for Fullstack Developers | Skill:Up',
-    company: 'Jotform',
+    company: 'Re:Coded',
     date: 'Dec 2024',
     credentialURL: 'https://learn.re-coded.com/certificates/kkxxmfmd4h',
     skills: null,
