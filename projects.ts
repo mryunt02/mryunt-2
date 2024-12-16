@@ -4,6 +4,8 @@ import rick from './icons/rick.png';
 import personal from './icons/personal.png';
 import sampleReact from './icons/sampleReact.png';
 import boxSizing from './icons/box-sizing.png';
+import projectManagement from './icons/project_management.png';
+import aiPrediction from './icons/image.png';
 import { StaticImageData } from 'next/image';
 interface Project {
   name: string;
@@ -13,6 +15,22 @@ interface Project {
   img: StaticImageData;
 }
 export const projects: Project[] = [
+  {
+    name: 'Project Management System',
+    description:
+      'I developed a project management system using Next.js for Frontend and Express.js for Backend. The system allows users to create, update, and delete projects, as well as assign tasks to team members. The app features a clean, intuitive design and integrates with MongoDB for data storage.',
+    tools: ['Next.js', 'TypeScript', 'Tailwind.css', 'Express.js'],
+    url: 'https://project-management-system-7nxk.vercel.app/',
+    img: projectManagement,
+  },
+  {
+    name: 'AI Match Prediction',
+    description:
+      'I developed a Match Prediction System using React.js for Frontend, Express.js for Backend and Gemini AI for match prediction. The system allows users to predict the outcome of football matches based on historical data and machine learning algorithms. The app features a clean, intuitive design and integrates with Gemini AI for accurate predictions.',
+    tools: ['React.js', 'JavaScript', 'Express.js', 'Gemini AI'],
+    url: 'https://ai-match-prediction.vercel.app/',
+    img: aiPrediction,
+  },
   {
     name: 'Portfolio Web Page',
     description:
