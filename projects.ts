@@ -6,6 +6,7 @@ import sampleReact from './icons/sampleReact.png';
 import boxSizing from './icons/box-sizing.png';
 import projectManagement from './icons/project_management.png';
 import aiPrediction from './icons/image.png';
+import a11y from './icons/a11y.png';
 import { StaticImageData } from 'next/image';
 interface Project {
   name: string;
@@ -56,12 +57,12 @@ export const projects: Project[] = [
     img: sampleReact,
   },
   {
-    name: 'Personal Website',
+    name: 'Accessibility Guide',
     description:
-      'I created a personal website using React.js to showcase information about myself, including my interests, skills, and background. The design is clean and responsive, reflecting my personal style.',
-    tools: ['React.js', 'JavaScript', 'CSS', 'HTML'],
+      'I created an interactive guide to web accessibility, focusing on the importance of creating inclusive and user-friendly websites. The guide features a range of tools and resources to help developers improve the accessibility of their projects.',
+    tools: ['HTML', 'Css'],
     url: 'https://mryunt02.github.io/personal/',
-    img: personal,
+    img: a11y,
   },
   {
     name: 'Weather App',
