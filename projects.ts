@@ -61,7 +61,7 @@ export const projects: Project[] = [
     description:
       'I created an interactive guide to web accessibility, focusing on the importance of creating inclusive and user-friendly websites. The guide features a range of tools and resources to help developers improve the accessibility of their projects.',
     tools: ['HTML', 'Css'],
-    url: 'https://mryunt02.github.io/personal/',
+    url: 'https://a11y-orcin.vercel.app/',
     img: a11y,
   },
   {
