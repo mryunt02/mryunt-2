@@ -7,6 +7,7 @@ import boxSizing from './icons/box-sizing.png';
 import projectManagement from './icons/project_management.png';
 import aiPrediction from './icons/image.png';
 import a11y from './icons/a11y.png';
+import fitTrack from './icons/fitness.png';
 import { StaticImageData } from 'next/image';
 interface Project {
   name: string;
@@ -16,6 +17,14 @@ interface Project {
   img: StaticImageData;
 }
 export const projects: Project[] = [
+  {
+    name: 'FitTrack',
+    description:
+      'FitTrack is a fitness tracking app that allows users to monitor their daily activities, set fitness goals, and track their progress over time. The app features a clean, intuitive design and integrates with Google Gemini AI for data on steps, distance, and calories burned. Additional features include workout tracking and exercise logging, nutrition monitoring and meal planning, progress visualization with charts, and personalized fitness goals. The app is designed to be responsive for both mobile and desktop use.',
+    tools: ['React Native', 'TypeScript', 'Google Gemini AI'],
+    url: 'https://fittrack.example.com',
+    img: fitTrack,
+  },
   {
     name: 'Project Management System',
     description:
@@ -36,7 +45,7 @@ export const projects: Project[] = [
     name: 'Portfolio Web Page',
     description:
       'I designed and developed a responsive portfolio website that resembles a MacBook screen. Built with React.js, the site showcases my projects, skills, and experiences with a clean, user-friendly design.',
-    tools: ['React.js', 'JavasSript', 'CSS', 'HTML'],
+    tools: ['React.js', 'JavaScript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/portfolio-v2/',
     img: portfolio,
   },
@@ -44,7 +53,7 @@ export const projects: Project[] = [
     name: 'Rick and Morty',
     description:
       'I developed a user-friendly app using the Rick and Morty API, allowing fans to explore detailed information about their favorite characters. The app features an intuitive design, ensuring a seamless and engaging user experience.',
-    tools: ['Next.js', 'JavaSript', 'CSS', 'HTML'],
+    tools: ['Next.js', 'JavaScript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/rickandmorty/',
     img: rick,
   },
@@ -60,15 +69,15 @@ export const projects: Project[] = [
     name: 'Accessibility Guide',
     description:
       'I created an interactive guide to web accessibility, focusing on the importance of creating inclusive and user-friendly websites. The guide features a range of tools and resources to help developers improve the accessibility of their projects.',
-    tools: ['HTML', 'Css'],
+    tools: ['HTML', 'CSS'],
     url: 'https://a11y-orcin.vercel.app/',
     img: a11y,
   },
   {
     name: 'Weather App',
     description:
-      'I built a React-based Weather App that delivers real-time weatherupdates for cities across Turkey. The app features a simple, user-friendly interface and integrates with APIs to provide accurate forecasts.',
-    tools: ['React.js', 'JavasSript', 'CSS', 'HTML'],
+      'I built a React-based Weather App that delivers real-time weather updates for cities across Turkey. The app features a simple, user-friendly interface and integrates with APIs to provide accurate forecasts.',
+    tools: ['React.js', 'JavaScript', 'CSS', 'HTML'],
     url: 'https://mryunt02.github.io/weatherapp',
     img: weatherappimage,
   },
