@@ -22,7 +22,7 @@ export const projects: Project[] = [
     description:
       'FitTrack is a fitness tracking app that allows users to monitor their daily activities, set fitness goals, and track their progress over time. The app features a clean, intuitive design and integrates with Google Gemini AI for data on steps, distance, and calories burned. Additional features include workout tracking and exercise logging, nutrition monitoring and meal planning, progress visualization with charts, and personalized fitness goals. The app is designed to be responsive for both mobile and desktop use.',
     tools: ['React Native', 'TypeScript', 'Google Gemini AI'],
-    url: 'https://fittrack.example.com',
+    url: 'https://fitness-nutrition-app.vercel.app/',
     img: fitTrack,
   },
   {
