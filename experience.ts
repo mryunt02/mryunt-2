@@ -12,7 +12,7 @@ export const experience: Experience[] = [
   {
     logo: filllabsicon,
     title: 'Full-Stack Developer',
-    company: 'Fill Labs',
+    company: 'Fill-Labs',
     date: 'Jan 2025 - Present',
     skills: ['React.js', 'Next.js', 'TypeScript', 'Go'],
   },
